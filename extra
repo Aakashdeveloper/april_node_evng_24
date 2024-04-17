@@ -56,5 +56,39 @@ React/Angular
 Html/css/jquery
 
 
+//// NODE
+>> Single threaded
+>> Non Blocking
+>> Async
+
+Event loop based
+
+> faster
+> multi process
+> open source
+
+npm
+node package manager
+
+JSON
+> Javascipt object notation
+* Way to represent the data
+key:value 
+
+[
+    {
+        "name":"john",
+        "city":"Amsterdam"
+    },
+    {
+        "name":"Ankit",
+        "city":"Delhi"
+    },
+    {
+        "name":"Nikita",
+        "city":"Paris",
+        "class":"node"
+    }
+]
 
 
