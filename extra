@@ -59,3 +59,37 @@ Html/css/jquery
 
 
 
+
+
+
+(function main(x){
+    this.test = 1;
+
+    const func1 = (x) => {
+        this.test = x
+        cosnole.log(this.test)
+
+        return{
+            test:20
+            func2: function(){
+                this.test +=5
+                return this.test
+            },
+            func3:{
+                test:30
+                test2: this.test
+            }
+        }
+    }
+
+    console.log(func1(x).func2())
+    console.log(this.test)
+    console.log(func1(x).func3.test2)
+})(4)
+
+
+explain the code javascript
+
+for(var i= 0; i<3;i++){
+    setTimeout(function(){alert(i)}, 1000 * i)
+}
