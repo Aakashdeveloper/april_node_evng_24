@@ -4,13 +4,19 @@ https://git-scm.com/downloads > Install
 https://github.com/ > Create Account
 https://github.com/Aakashdeveloper > Follow
 
-
+githistory
+gitlens
+spellcheck
+vscode-icons
+tabnine
 
 JavaScript
 Ifelse,Function,object,JSON,Variables
 
+
 NPM
 package.json
+/////////////
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
 Third Party Api (Weather Api)
@@ -48,7 +54,6 @@ Chatapp
 GraphQl API
 FIREBASE
 Paytm-Payment
-////////////////////
 Jenkins
 Docker
 AWS lambda micorservice
@@ -57,39 +62,66 @@ React/Angular
 Html/css/jquery
 
 
+//// NODE
+>> Single threaded
+>> Non Blocking
+>> Async
 
+Event loop based
 
+> faster
+> multi process
+> open source
 
+npm
+node package manager
 
+JSON
+> Javascipt object notation
+* Way to represent the data
+key:value 
 
-(function main(x){
-    this.test = 1;
-
-    const func1 = (x) => {
-        this.test = x
-        cosnole.log(this.test)
-
-        return{
-            test:20
-            func2: function(){
-                this.test +=5
-                return this.test
-            },
-            func3:{
-                test:30
-                test2: this.test
-            }
-        }
+[
+    {
+        "name":"john",
+        "city":"Amsterdam"
+    },
+    {
+        "name":"Ankit",
+        "city":"Delhi"
+    },
+    {
+        "name":"Nikita",
+        "city":"Paris",
+        "class":"node"
     }
-
-    console.log(func1(x).func2())
-    console.log(this.test)
-    console.log(func1(x).func3.test2)
-})(4)
+]
 
 
-explain the code javascript
+package.json
+> entry point to app
+> contains script (start,test)
+> packages
 
-for(var i= 0; i<3;i++){
-    setTimeout(function(){alert(i)}, 1000 * i)
-}
+//step to generate package.json
+** Nodejs must be installed in our laptop
+> open the terminal
+> go inside the folder (cd foldername)
+> npm init
+> Answer all questions
+> type yes
+
+//step to install packages
+> go inside the folder 
+> npm i packagename / npm install packagename
+
+> Package-lock
+(dependency tree/ child dependency)
+
+//step to install dev dependncy
+> go inside the folder 
+> npm i packagename --save-dev
+
+fs
+os
+http
