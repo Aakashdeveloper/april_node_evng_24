@@ -13,3 +13,17 @@ let movie = {
     ind:"Hollywood",
     rating:4.5
 }
+
+
+let movies = [
+    {
+        name:"Avengers",
+        ind:"Hollywood",
+        rating:4.5
+    },
+    {
+        name:"Jab We Met",
+        ind:"Bollywood",
+        rating:4.8
+    }
+]
